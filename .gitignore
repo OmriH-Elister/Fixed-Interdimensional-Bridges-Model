@@ -1,0 +1,27 @@
+# OS-specific clutter
+.DS_Store          # macOS
+Thumbs.db          # Windows
+
+# Temporary or backup files
+*.tmp
+*.bak
+~$*                # MS Word temp files (start with `~$`)
+*.swp              # Vim swap files
+*.log
+
+# Office application autosaves
+*.asd              # Word autosave
+*.wbk              # Word backup
+
+# LibreOffice / OpenOffice temp files
+.~lock.*#
+
+# IDE or editor metadata (if you open in something like VS Code)
+.vscode/
+.idea/
+
+# GitHub Pages (if you enable it later)
+_site/
+
+# Compiled or generated files
+*.pdf
